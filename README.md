@@ -9,7 +9,7 @@
 
 ## Overview
 
-So far, we have built a tic tac toe game that only places `"X'`s on the board. I don't know about you, but I am not interested in playing that game. We need our game to know whose turn it is and place an `"X"` or an `"O"` on the board accordingly.
+So far, we have built a tic tac toe game that only places `"X"`s on the board. I don't know about you, but I am not interested in playing that game. We need our game to know whose turn it is and place an `"X"` or an `"O"` on the board accordingly.
 
 Let's break this down into the smallest possible units of work. We'll write two separate methods, a method that will tell us how many turns have been played and a method that will return, based on that information, an `"X"` if it is player `"X"`'s turn, and an `"O"` if it is player `"O"`'s turn.
 
