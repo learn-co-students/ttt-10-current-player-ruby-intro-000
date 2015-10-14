@@ -41,7 +41,7 @@ if my_condition_is_met
   counter = counter + 1
 end
 ```
-This re-sets the `counter` variable equal the value of the *original* or previous `counter` variable value + 1.
+This re-sets the `counter` variable equal to the value of the *original* or previous `counter` variable value + 1.
 
 To clean this up, or refactor it, a bit, we can use the `+=` or "plus-equals" operator:
 
