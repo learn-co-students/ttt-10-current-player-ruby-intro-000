@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. User iteration to loop over an array.
+1. Use iteration to loop over an array.
 2. Control the return value of a method that uses iteration in the method body.
 3. Learn about and utilize the `%`, or modulo, operator.
 4. Call a method inside of another method.
