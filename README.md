@@ -77,3 +77,5 @@ Try using the `%` operator in your `#current_player` method. Then, trying refact
 #### Bonus
 
 If you can get your `#current_player` method working using `if`/`else` statements, try refactoring it using the ternary operator.
+
+<a href='https://learn.co/lessons/ttt-10-current-player' data-visibility='hidden'>View this lesson on Learn.co</a>
