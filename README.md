@@ -76,6 +76,6 @@ Try using the `%` operator in your `#current_player` method. Then, trying refact
 
 #### Bonus
 
-If you can get your `#current_player` method working using `if`/`else` statements, try refactoring it using the ternary operator.
+If you can get your `#current_player` method working using `if`/`else` statements, try refactoring it using the ternary operator. You can read the [Ruby documentation](http://ruby-doc.org/core-2.3.0//doc/syntax/control_expressions_rdoc.html#label-Ternary+if) on ternary operators to learn more, and of course, Google around as well. 
 
 <a href='https://learn.co/lessons/ttt-10-current-player' data-visibility='hidden'>View this lesson on Learn.co</a>
