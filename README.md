@@ -72,10 +72,12 @@ Here's how it works:
 15 % 2 #=> 1
 ```
 
-Try using the `%` operator in your `#current_player` method. Then, trying refactoring your method to use the `.even?` or `.odd?` methods. Look them up in the Ruby Docs to learn more.
+Try using the `%` operator in your `#current_player` method. Then, try refactoring your method to use the `.even?` or `.odd?` methods. Look them up in the Ruby Docs to learn more.
 
 #### Bonus
 
 If you can get your `#current_player` method working using `if`/`else` statements, try refactoring it using the ternary operator. You can read the [Ruby documentation](http://ruby-doc.org/core-2.3.0//doc/syntax/control_expressions_rdoc.html#label-Ternary+if) on ternary operators to learn more, and of course, Google around as well. 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ttt-10-current-player' title='Tic Tac Toe Current Player'>Tic Tac Toe Current Player</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ttt-10-current-player'>Tic Tac Toe Current Player</a> on Learn.co and start learning to code for free.</p>
