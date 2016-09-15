@@ -3,7 +3,7 @@ def turn_count( board )
   board.each do |z|
     if( z != " ")
       count += 1
-      puts "found #{count} #{z}"
+      # puts "found #{count} #{z}"
     end
   end
   return count
@@ -12,7 +12,7 @@ end
 
 def current_player( board )
   if turn_count( board ).even?
-  #if( turn_count( board ) % 2 == 0 )
+  # if( turn_count( board ) % 2 == 0 )
       return "X"
   else
     return "O"
