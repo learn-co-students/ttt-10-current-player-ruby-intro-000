@@ -11,7 +11,8 @@ end
 
 
 def current_player( board )
-  if( turn_count( board ) % 2 == 0 )
+  if turn_count( board ).even?
+  #if( turn_count( board ) % 2 == 0 )
       return "X"
   else
     return "O"
@@ -19,4 +20,4 @@ def current_player( board )
 
 end
 
-# puts current_player( ["O", " ", " ", " ", "X", " ", " ", " ", "X"] )
+# puts current_player( ["O", " ", "O", " ", "X", " ", "X", "O", "X"] )
