@@ -14,9 +14,9 @@ def current_player(board)
   if board.empty?
     return "X"
   end
-  if turn_count(board) % 2 == 0
-    return "X"
-  else
-    return "O"
-    end
- end
+  if turn_count(board) % 2 == 0 ? return "X" : return "O"
+#    return "X"
+#  else
+#    return "O"
+   end
+# end
