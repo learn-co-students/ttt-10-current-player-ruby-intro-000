@@ -10,18 +10,13 @@ def turn_count(board)
   #turns
 end
 
-
-#counter = 0
-#def turn_count(board)
-#  if
-#   counter += 1
-# end
-#end
-
 def current_player(board)
-  if turn_count(board) % 2 == 0
-    "X"
-  else
-    "O"
-  end
+  # if turn_count(board) % 2 == 0     # solution w/ if/else
+  #   "X"
+  # else
+  #   "O"
+  # end
+# advanced solution w/ ternary operator
+  (turn_count(board) % 2 == 0) ?
+  "X" : "O"
 end
