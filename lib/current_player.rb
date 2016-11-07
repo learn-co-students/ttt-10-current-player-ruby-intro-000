@@ -1,17 +1,17 @@
 def turn_count(board)
- board.count{|token| token == "X" || token == "O"}
-
-  #turns = 0
-  #board.each do |token|
-  #  if token == "X" || token == "O"
-  #    turns += 1
-  #  end
-  #end
-  #turns
+  counter = 0
+  board.each do |symbol|
+    if symbol == "X" || symbol == "O"
+      counter += 1
+    end
+  end
+  counter
+  #board.count{|symbol| symbol == "X" || symbol == "O"}
 end
 
 def current_player(board)
-  # if turn_count(board) % 2 == 0     # solution w/ if/else
+  # solution w/ if/else
+  # if turn_count(board) % 2 == 0
   #   "X"
   # else
   #   "O"
