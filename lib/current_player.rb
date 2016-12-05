@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board.each{|place| place == 'O' || place == 'X'? counter += 1 : counter += 0 }
+  board.each{|place| place == 'O' || place == 'X'? counter += 1 : next }
   return counter
 end
 
