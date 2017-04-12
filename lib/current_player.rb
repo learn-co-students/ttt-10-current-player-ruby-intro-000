@@ -10,5 +10,13 @@ end
 
 
 def current_player(board)
+  ##Ternary If!
   current_player = turn_count(board).even? ? "X" : "O"
+  # same as:
+  # current player =
+  #   if turn_count(board).even?
+  #     "X"
+  #   else
+  #     "O"
+  # end
 end
