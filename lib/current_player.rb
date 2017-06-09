@@ -15,4 +15,3 @@ def current_player(board)
     return "O"
   end
 end
-puts "#{current_player(["X","0"," ", " ", "X", "0"])}"
