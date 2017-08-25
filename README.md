@@ -15,7 +15,7 @@ Let's break this down into the smallest possible units of work. We'll write two 
 
 Why build two separate methods? Let's talk about the Single Responsibility Principle. That principle states that methods should have *one job* and their behavior should be narrowly aligned with that job. The job of determining how many turns have been played is separate from the job of reporting whose turn it currently is, `"X"` or `"O"`, although the second job will rely on the first.
 
-But why follow this principle? Let's think about it. Can we envision a scenario in which we might want to know how many turns have been played, without caring whether it is `"X"`'s turn next or `"O"`'s? What about when we need to determine if there is a tie? What if we want to build a game that keeps track of the user's victories and let's them know how fast their average win is? Breaking down the behavior of our program into it's smallest possible constituents gives us the flexibility we need to take those building blocks and arrange them into new configurations as new goals and problems arrive.
+But why follow this principle? Let's think about it. Can we envision a scenario in which we might want to know how many turns have been played, without caring whether it is `"X"`'s turn next or `"O"`'s? What about when we need to determine if there is a tie? What if we want to build a game that keeps track of the user's victories and lets them know how fast their average win is? Breaking down the behavior of our program into its smallest possible constituents gives us the flexibility we need to take those building blocks and arrange them into new configurations as new goals and problems arrive.
 
 ## Instructions
 
