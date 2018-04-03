@@ -1,5 +1,5 @@
 def turn_count(board) # empty spaces are set to " ", not "" anymore 
-  return board.select {|piece| piece != " "}.length
+  return board.count {|piece| piece != " "}
 end
 
 def current_player(board) 
