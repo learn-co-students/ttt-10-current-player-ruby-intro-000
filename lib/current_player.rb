@@ -1,10 +1,10 @@
+#!/usr/lib/env ruby
+
 def turn_count(board)
 counter = 0
   board.each do |numba|
-    if numba != "" || numba != " "
+    if numba == "X" || numba == "O"
       counter +=1
-    else
-      break
     end
   end
 return counter
@@ -15,4 +15,5 @@ def current_player(board)
     return "X"
   else
     return "O"
+  end
 end
