@@ -1,4 +1,4 @@
-# Tic Tac Toe Current Player
+turn_count(board) % 2 == 0 # Tic Tac Toe Current Player
 
 ## Objectives
 
