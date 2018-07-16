@@ -1,14 +1,3 @@
-# def current_player
-#
-# counter = 0
-# if counter % 2 == 0
-#
-# return "X"
-#
-# # else
-# #   return "O"
-#
-# end
 
 def turn_count (board)
   board.each do |counter|
@@ -18,8 +7,13 @@ def turn_count (board)
     end
 end
 
-
-
+def current_player (board)
+  if counter % 2 == 0
+    return "X"
+  else
+    return "O"
+end
+end
 
 #  Try to implement an iterator, like #each, to loop over the elements of the board array.
 #Remember that the return value of #each is the original array on which you are calling that method.
