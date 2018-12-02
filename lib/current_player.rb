@@ -6,27 +6,21 @@
 #We will need to iterate over each member of the board array, check to see if that element is an `"X"` or an `"O"`.
 #If it is, we increment our `counter` variable by 1.
 
-
 board = [" "," "," "," "," "," "," "," "," "]
-
-
 def turn_count(board)
   turns = 0
-
-  board.each do |ele|
-    if ele == "X" || ele == "O"
-    turns += 1
+  board.each do |turn|
+    if turn == "X" || turn == "O"
+      turns += 1
     end
   end
-
   return turns
 end
-
 #create a method called current_player
 #takes in an argument of a board
 #if turn_count is even the playeer is X if odd player is O
 #use the modulo method to determine if even or odd
 
 def current_player(board)
-  turn_count(board) % 2 == 0 ? "X": "O"
+  turn_count(board) % 2 == 0? "X" : "O"
 end
