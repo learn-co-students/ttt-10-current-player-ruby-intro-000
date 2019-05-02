@@ -6,8 +6,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 #     return "X"
 #   elsif turn % 2 == true
 #     return "O"
-#   else
-#     return "X"
+#   #else
+#   #  return "X"
 #   end
 # end
 
