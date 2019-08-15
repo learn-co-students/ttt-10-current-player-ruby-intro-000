@@ -13,3 +13,8 @@ def current_player(board)
     return "O"
   end
 end
+
+#bonus
+def current_player(board)
+  turn_count(board) % 2 == 0 ? "X" : "O"
+end
