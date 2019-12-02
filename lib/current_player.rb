@@ -13,4 +13,5 @@ def current_player(board)
     returns "X"
   else
     returns "O"
+  end
 end
