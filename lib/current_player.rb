@@ -11,14 +11,5 @@ def turn_count(board)
 end
 
 def current_player(board)
-
-  board.each do |token|
-    if token == "X"
-      return "O"
-    elsif token == "O"
-      return "X"
-    end
-  end
-
-  "X"
+  turn_count(board).even? ? "X" : "O"
 end
