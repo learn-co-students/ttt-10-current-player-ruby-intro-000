@@ -10,11 +10,13 @@ end
 
 def current_player(board)
    board.each do |character|
-    if turn_count(board) % 2 == 0 
-      character = "X"
-    else 
-      character = "O"
-    end 
+    turn_count(board).even? ? (character = "X") : (character = "O")
     return character 
   end 
 end
+
+#condition ? true : false
+#"chocolate".size > 4 ? "More than four characters" : "Less than #four characters"
+#"".empty? ? "Yes" : "No"
+#a = 10 > 5 ? "yes" : "no"
+#10 > 5 ? (puts "yes") : (puts "no")
