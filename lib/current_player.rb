@@ -9,9 +9,9 @@ def turn_count(board)
 end
 
 def current_player(board)
-   board.each do |character|
-    turn_count(board).even? ? (character = "X") : (character = "O")
-    return character 
+   board.each do |number|
+    turn_count(board).even? ? (number = "X") : (number = "O")
+    return number  
   end 
 end
 
