@@ -1,6 +1,3 @@
-require_relative '../lib/current_player.rb'
-
-
 
 def turn_count(board1)
   counter = 0
@@ -14,19 +11,13 @@ def turn_count(board1)
   return  counter
 end
 
+def current_player(board)
+    if turn_count % 2 == 0
+    return "X"
+  else
+   return "O"
+ end
+ end
 
-
-#index_empty = "" || " "
-  #counter = 0
-  #board.each do |turn|
-    #if turn != index_empty
-    #  counter += 1
-  #  end
-#  end
-#input == "" || " "
-#counter = 0
-#board1.each do |turn|
-  #if turn != input
-    #counter += 1
-
-#end
+  #return current_player(board)
+#{current_player = counter % 2 = 0 ? "X" : "O"}
