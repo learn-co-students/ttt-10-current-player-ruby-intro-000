@@ -1,8 +1,8 @@
 
-def turn_count(board1)
+def turn_count(banana)
   counter = 0
   empty = " "
-  board1.each do |token|
+  banana.each do |token|
     if token != empty
       true
       counter += 1
@@ -12,7 +12,7 @@ def turn_count(board1)
 end
 
 def current_player(board)
-    if turn_count % 2 == 0
+    if turn_count(board) % 2 == 0
     return "X"
   else
    return "O"
@@ -20,4 +20,4 @@ def current_player(board)
  end
 
   #return current_player(board)
-#{current_player = counter % 2 = 0 ? "X" : "O"}
+#{current_player = turn_count % 2 = 0 ? "X" : "O"}
