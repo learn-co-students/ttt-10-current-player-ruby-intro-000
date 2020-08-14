@@ -5,7 +5,7 @@ board.each do | position |
       counter += 1
     end
   end
-  return counter
+counter
 end
 
 
